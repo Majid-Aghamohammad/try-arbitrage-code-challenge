@@ -152,7 +152,7 @@ arbitrage-detection/
 - **Import errors**: Ensure virtual environment is activated
 - **Network issues**: Check internet connection
 
-### Solutions:
+### Solutions:   
 - Use valid dates (1st of month)
 - Run `source venv/bin/activate` before execution
 - Check tardis.dev service status
@@ -160,3 +160,4 @@ arbitrage-detection/
 ## 📞 Support
 
 For issues or questions, check the logs in the terminal output.
+Email: majidaghamohammadd@gmail.com
