@@ -125,9 +125,9 @@ async def download_and_process_data(date: str) -> bool:
     print("=" * 50)
     
     try:
-               # Download data
-               downloader = DataDownloader(date=date)
-               files = await downloader.download_all_data(duration_minutes=1440)
+        # Download data
+        downloader = DataDownloader(date=date)
+        files = await downloader.download_all_data(duration_minutes=1440)
         
         if not files:
             print("❌ No data downloaded!")
