@@ -18,8 +18,8 @@ from typing import Optional, Tuple
 # Add src to path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-from data.data_downloader import DataDownloader
-from data.data_processor import DataProcessor
+from data_manipulation.data_downloader import DataDownloader
+from data_manipulation.data_processor import DataProcessor
 from analysis.arbitrage_detector import ArbitrageDetector
 from analysis.triangular_arbitrage import TriangularArbitrageDetector
 
