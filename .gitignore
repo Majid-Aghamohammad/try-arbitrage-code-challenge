@@ -1,3 +1,6 @@
+#Manual files
+run_demo.py
+
 # Python
 __pycache__/
 *.py[cod]
